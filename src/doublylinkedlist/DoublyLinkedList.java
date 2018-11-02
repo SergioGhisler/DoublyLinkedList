@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package doublelinkedlist;
+package doublylinkedlist;
 
 /**
  *
  * @author sergio
  */
-public class DoubleLinkedList {
+public class DoublyLinkedList {
 
     /**
      * @param args the command line arguments
@@ -127,7 +127,7 @@ public class DoubleLinkedList {
     }
 
     public static void main(String[] args) {
-        DoubleLinkedList lista = new DoubleLinkedList();
+        DoublyLinkedList lista = new DoublyLinkedList();
         System.out.println(lista.empty());
         Persona p1 = new Persona("Sergio", 20,"1234");
         Persona p2 = new Persona("Fran", 23,"235246");
