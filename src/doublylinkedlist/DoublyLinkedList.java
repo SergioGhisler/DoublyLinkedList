@@ -134,10 +134,10 @@ public class DoublyLinkedList {
     public static void main(String[] args) {
         DoublyLinkedList lista = new DoublyLinkedList();
         System.out.println(lista.empty());
-        Persona p1 = new Persona("Sergio", 20,"1234");
-        Persona p2 = new Persona("Fran", 23,"235246");
-        Persona p3 = new Persona("Marina", 14,"12457563");
-        Persona p4 = new Persona ("Yoshi",34,"34234");
+        UsuariosBanco p1 = new UsuariosBanco("Sergio", 20,"1234",123);
+        UsuariosBanco p2 = new UsuariosBanco("Fran", 23,"1234",12544);
+        UsuariosBanco p3 = new UsuariosBanco("Marina", 14,"12457563",235235);
+        UsuariosBanco p4 = new UsuariosBanco ("Yoshi",34,"34234",24353);
         
         lista.pushHead(p1);
         lista.pushHead(p2);
@@ -152,7 +152,7 @@ public class DoublyLinkedList {
         System.out.println(lista.popTail());
        System.out.println(lista.peekTail());
        System.out.println(lista.size());
-      
+      System.out.println(p1.compareTo(p2));
         
     }
 

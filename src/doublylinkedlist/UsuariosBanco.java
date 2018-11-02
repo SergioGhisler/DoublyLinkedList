@@ -9,16 +9,18 @@ package doublylinkedlist;
  *
  * @author sergio
  */
-public class Persona {
+public class UsuariosBanco {
 
     private String nombre;
     private int edad;
     private String dni;
+    private double cantidadDinero;
 
-    public Persona(String nombre, int edad, String dni) {
+    public UsuariosBanco(String nombre, int edad, String dni, double cantidadDinero) {
         this.nombre = nombre;
         this.edad = edad;
         this.dni = dni;
+        this.cantidadDinero=cantidadDinero;
     }
 
     public String getNombre() {
@@ -44,8 +46,23 @@ public class Persona {
     public void setDni(String dni) {
         this.dni = dni;
     }
+    
 
-    @Override
+    public double getCantidadDinero() {
+		return cantidadDinero;
+	}
+
+	public void setCantidadDinero(double cantidadDinero) {
+		this.cantidadDinero = cantidadDinero;
+	}
+	
+	public boolean compareTo(UsuariosBanco obj) {
+		if (getDni()==obj.getDni()) {
+		return true;
+		}
+		return false;
+	}
+	@Override
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + '}';
     }
