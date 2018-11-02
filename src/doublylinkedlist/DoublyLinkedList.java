@@ -118,8 +118,10 @@ public class DoublyLinkedList {
         for(int i = 0; i<pos-1;i++) 
         	temp = temp.getNextElement();
         
-        temp.setNextElement(new Nodo(obj,temp.getNextElement(),temp));
-        	size++;
+        temp.setNextElement(temp.getNextElement().getNextElement());
+        
+        temp.getNextElement().setPreviousElement(temp);
+        	size--;
         	return true;
         }
         	return false;
@@ -142,9 +144,16 @@ public class DoublyLinkedList {
         lista.pushHead(p3);
         lista.insert(1, p4);
         System.out.println(lista.popHead());
-       System.out.println(lista.peekHead()); 
+        System.out.println(lista.peekHead()); 
         System.out.println(lista.peekTail());
         System.out.println(lista.size());
+        System.out.println(lista.remove(1));
+        System.out.println(lista.peekTail());
+        System.out.println(lista.popTail());
+       System.out.println(lista.peekTail());
+       System.out.println(lista.size());
+      
+        
     }
 
 }
