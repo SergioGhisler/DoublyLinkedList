@@ -106,20 +106,23 @@ public class DoublyLinkedList {
     }
 
     public boolean remove(int pos) {
-    	//Hay que ver borrar 
-    	if (pos<size && pos>=0) {
+        if (pos==0){
+            popHead();
+            return true;
+        }
+        else if(pos==size-1){
+            popTail();
+            return true;
+        }else if (pos<size-1 && pos>0) {
         	Nodo temp = head;
-        	Nodo temp2=head;
         for(int i = 0; i<pos-1;i++) 
         	temp = temp.getNextElement();
-        for(int j=0;j<pos+1;j++)
-        	temp2=temp2.getNextElement();
-        temp.setNextElement(temp2);
-        temp2.setPreviousElement(temp);
+        
+        temp.setNextElement(new Nodo(obj,temp.getNextElement(),temp));
         	size++;
         	return true;
         }
-    	return false;
+        	return false;
     }
 
     public void remove(Object obj) {
