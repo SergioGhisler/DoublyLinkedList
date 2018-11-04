@@ -9,7 +9,7 @@ package doublylinkedlist;
  *
  * @author sergio
  */
-public class UsuariosBanco implements Comparable<UsuariosBanco>{
+public class UsuariosBanco {
 
     private String nombre;
     private int edad;
@@ -57,9 +57,7 @@ public class UsuariosBanco implements Comparable<UsuariosBanco>{
 	}
 	
 	
-	public int compareTo(UsuariosBanco u1,UsuariosBanco u2) {
-		return u1.getCantidadDinero().compareTo(u2.getCantidadDinero());
-		}
+	
 		 
 		
 	@Override
