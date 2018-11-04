@@ -127,8 +127,12 @@ public class DoublyLinkedList {
         	return false;
     }
 
-    public void remove(Object obj) {
-
+    public void remove(UsuariosBanco obj) {
+    	Nodo temp = head;
+    for (int i = 0; i<size;i++) {
+    	temp.getValue().getDni()
+    	temp = temp.getNextElement()
+    }
     }
 
     public static void main(String[] args) {
@@ -153,7 +157,7 @@ public class DoublyLinkedList {
        System.out.println(lista.peekTail());
        System.out.println(lista.size());
       System.out.println(p1.compareTo(p2));
-        
+        lista.sort(UsuariosBanco);
     }
 
 }

@@ -9,14 +9,14 @@ package doublylinkedlist;
  *
  * @author sergio
  */
-public class UsuariosBanco {
+public class UsuariosBanco implements Comparable<UsuariosBanco>{
 
     private String nombre;
     private int edad;
     private String dni;
-    private double cantidadDinero;
+    private int cantidadDinero;
 
-    public UsuariosBanco(String nombre, int edad, String dni, double cantidadDinero) {
+    public UsuariosBanco(String nombre, int edad, String dni, int cantidadDinero) {
         this.nombre = nombre;
         this.edad = edad;
         this.dni = dni;
@@ -48,20 +48,20 @@ public class UsuariosBanco {
     }
     
 
-    public double getCantidadDinero() {
+    public int getCantidadDinero() {
 		return cantidadDinero;
 	}
 
-	public void setCantidadDinero(double cantidadDinero) {
+	public void setCantidadDinero(int cantidadDinero) {
 		this.cantidadDinero = cantidadDinero;
 	}
 	
-	public boolean compareTo(UsuariosBanco obj) {
-		if (getDni()==obj.getDni()) {
-		return true;
+	
+	public int compareTo(UsuariosBanco u1,UsuariosBanco u2) {
+		return u1.getCantidadDinero().compareTo(u2.getCantidadDinero());
 		}
-		return false;
-	}
+		 
+		
 	@Override
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + '}';
