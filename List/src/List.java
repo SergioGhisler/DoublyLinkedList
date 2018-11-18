@@ -252,10 +252,16 @@ public class List {
                 quicksort(p + 1, hi)
 
          */
+        if (lo < hi + 1) {
+            int p = partition(lo, hi);
+            quickSort(lo, p);
+            quickSort(p + 1, hi);
+
+        }
     }
 
     private int partition(int lo, int hi) throws Exception {
-        int pivot = array[r];
+      /*  int pivot = array[r];
         int left = l;
         int right = r;
         while (true) {
@@ -268,9 +274,11 @@ public class List {
             if (left >= right) {
                 return left;
             }
-            swap(array, left, right);
-        }
-    }
+            swap(array, left, right);*/
+
+
+
+
 
         /*
         TODO
@@ -287,7 +295,20 @@ public class List {
             swap A[i] with A[hi]
             return i
          */
-        return 1;
+        int pivot =this.getNode(hi).element;
+        int i=lo-1;
+        for(int j=lo;j<hi-1;j++){
+            if(this.getNode(j).element<pivot){
+                if(i != j+1) {
+                    ++i;
+                    swap(this.getNode(i).element, this.getNode(j).element);
+                }
+
+            }
+        }
+        ++i;
+        swap(this.getNode(i).element, this.getNode(hi).element);
+        return i;
     }
 
     /**
@@ -332,3 +353,4 @@ public class List {
 
 
 }
+
