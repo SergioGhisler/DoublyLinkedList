@@ -97,15 +97,15 @@ public class ListTest {
     @Test
     public void checkSort() throws Exception {
         List l = new List();
-        l.addLast(543);
+        l.addLast(-7);
         l.addLast(190);
         l.addLast(32);
         l.addLast(-1);
-        l.addLast(9);
+        l.addLast(-99);
 
-        assertEquals(l.toString(), "543, 190, 32, -1, 9");
+        assertEquals(l.toString(), "-7, 190, 32, -1, -99");
         l.sort();
-        assertEquals(l.toString(), "-1, 9, 32, 190, 543");
+        assertEquals(l.toString(), "-99, -7, -1, 32, 190");
     }
 
     @Test

@@ -132,14 +132,15 @@ public class List {
                 temp = temp.next;
 
             temp.next=(new Node(element,temp.next,temp));
+            temp.next.next.prev= temp.next;
             size++;
 
         }
         if (index<0)
-            throw new ArithmeticException("Es un indice muy bajo");
+            throw new Exception("Es un indice muy bajo");
 
-        if(index>size)
-            throw new ArithmeticException("Es un idice demasiado alto");
+        if(index>this.size)
+            throw new Exception("Es un idice demasiado alto");
 
 
     }
@@ -155,7 +156,7 @@ public class List {
         Node n = this.getNode(index);
 
         if (n == null) {
-            throw new Exception();
+            throw new Exception("");
         }
 
         return n.element;
@@ -214,15 +215,17 @@ public class List {
           Node temp = this.head;
           head = this.head.next;
           --size;
+          if(size!=0)
+          this.head.prev=null;
           return temp.element;
 
 
       }
       else if(i>=0 && i<size) {
           Node temp = this.head;
-          for (int j = 0; j < i; j++){
+          for (int j = 0; j < i; j++)
               temp = temp.next;
-      }
+
       int u = temp.element;
       temp=temp.prev;
 
@@ -232,10 +235,10 @@ public class List {
 
     }
         if (i<0)
-            throw new ArithmeticException("Es un indice muy bajo");
+            throw new Exception("Es un indice muy bajo");
 
         if(i>=size)
-            throw new ArithmeticException("Es un idice demasiado alto");
+            throw new Exception("Es un idice demasiado alto");
         return 0;
     }
 
@@ -247,64 +250,21 @@ public class List {
     }
 
     private void quickSort(int lo, int hi) throws Exception {
-        /*
-        TODO
-        in-place quicksort
 
-        algorithm quicksort(lo, hi) is
-            if lo < hi then
-                p := partition(lo, hi)
-                quicksort(lo, p)
-                quicksort(p + 1, hi)
-
-         */
-        if (lo < hi-1) {
+        if (lo < hi) {
             int p = partition(lo, hi);
-            quickSort(lo, p);
+            quickSort(lo, p-1);
             quickSort(p + 1, hi);
 
         }
     }
 
     private int partition(int lo, int hi) throws Exception {
-      /*  int pivot = array[r];
-        int left = l;
-        int right = r;
-        while (true) {
-            while (array[left] < pivot) {
-                left++;
-            }
-            while (array[right] > pivot) {
-                right--;
-            }
-            if (left >= right) {
-                return left;
-            }
-            swap(array, left, right);*/
 
-
-
-
-
-        /*
-        TODO
-        algorithm partition(A, lo, hi) is
-            pivot := A[hi]
-            i := lo - 1
-            for j := lo to hi - 1 do
-                if A[j] < pivot then
-                    if i != j then
-                        i := i + 1
-                        swap A[i] with A[j]
-
-            i := i + 1
-            swap A[i] with A[hi]
-            return i
-         */
         int pivot =this.getNode(hi).element;
         int i=lo-1;
         for(int j=lo;j<=hi-1;j++){
-            if(this.getNode(j).element<pivot){
+            if(this.getNode(j).element<=pivot){
                 if(i != j+1) {
                     ++i;
                     swap(i, j);
