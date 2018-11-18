@@ -104,7 +104,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="859">
               <caret line="309" selection-start-line="309" selection-end-line="309" />
               <folding>
                 <element signature="e#345#346#0" expanded="true" />
@@ -192,7 +192,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542538991314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542539055259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -311,7 +311,7 @@
       <workItem from="1541778121807" duration="8000" />
       <workItem from="1542105363072" duration="835000" />
       <workItem from="1542106562918" duration="9916000" />
-      <workItem from="1542482283831" duration="3634000" />
+      <workItem from="1542482283831" duration="3697000" />
     </task>
     <servers />
   </component>
@@ -348,7 +348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19720000" />
+    <option name="totallyTimeSpent" value="19783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="859">
           <caret line="309" selection-start-line="309" selection-end-line="309" />
           <folding>
             <element signature="e#345#346#0" expanded="true" />
