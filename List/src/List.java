@@ -210,15 +210,15 @@ public class List {
      * @throws Exception invalid index or empty list
      */
     int remove(int i) throws Exception {
-      if(i==0){
+      if(i==0) {
+          Node temp = this.head;
+          head = this.head.next;
+          --size;
+          return temp.element;
 
-        head=this.head.next;
-        return head.element;
-      }else if(i==size){
-          Node temp= this.tail.prev;
-          temp.next=null;
-        }
-      else if(i>0 && i<size) {
+
+      }
+      else if(i>=0 && i<size) {
           Node temp = this.head;
           for (int j = 0; j < i; j++){
               temp = temp.next;
@@ -227,9 +227,15 @@ public class List {
       temp=temp.prev;
 
           temp.next= temp.next.next;
+          --size;
           return u;
-    }
 
+    }
+        if (i<0)
+            throw new ArithmeticException("Es un indice muy bajo");
+
+        if(i>=size)
+            throw new ArithmeticException("Es un idice demasiado alto");
         return 0;
     }
 
@@ -252,7 +258,7 @@ public class List {
                 quicksort(p + 1, hi)
 
          */
-        if (lo < hi + 1) {
+        if (lo < hi-1) {
             int p = partition(lo, hi);
             quickSort(lo, p);
             quickSort(p + 1, hi);
@@ -297,17 +303,17 @@ public class List {
          */
         int pivot =this.getNode(hi).element;
         int i=lo-1;
-        for(int j=lo;j<hi-1;j++){
+        for(int j=lo;j<=hi-1;j++){
             if(this.getNode(j).element<pivot){
                 if(i != j+1) {
                     ++i;
-                    swap(this.getNode(i).element, this.getNode(j).element);
+                    swap(i, j);
                 }
 
             }
         }
         ++i;
-        swap(this.getNode(i).element, this.getNode(hi).element);
+        swap(i, hi);
         return i;
     }
 

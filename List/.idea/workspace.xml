@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3359820f-b71d-47d9-9b4f-c67b2412d389" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,57 +72,36 @@
         </counts>
       </usages-collector>
     </session>
-<<<<<<< HEAD
     <session id="-1705640394">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-=======
-    <session id="1049848476">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-<<<<<<< HEAD
-=======
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="279" />
+          <entry key="java" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="279" />
+          <entry key="JAVA" value="157" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="7" />
         </counts>
       </usages-collector>
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/List.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="935">
-              <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
-=======
-            <state relative-caret-position="859">
-              <caret line="309" selection-start-line="309" selection-end-line="309" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+            <state relative-caret-position="427">
+              <caret line="225" column="11" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
               <folding>
                 <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
@@ -133,16 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1547">
-              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-=======
-            <state relative-caret-position="304">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+            <state relative-caret-position="969">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,19 +150,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1443" />
-    <option name="y" value="822" />
-    <option name="width" value="3840" />
-    <option name="height" value="2160" />
-=======
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="406" />
     <option name="y" value="247" />
     <option name="width" value="1280" />
     <option name="height" value="716" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,8 +184,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +194,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542539055259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542552191080" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -257,7 +229,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.checkSort">
+  <component name="RunManager" selected="JUnit.ListTest">
+    <configuration name="ListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="List" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest.checkDeletionException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List" />
       <option name="PACKAGE_NAME" value="" />
@@ -268,31 +248,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.checkGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.checkRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="checkGet" />
+      <option name="METHOD_NAME" value="checkRemove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest.checkGetException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListTest.checkRemoveLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="List" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="checkGetException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest.checkGetException2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="List" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="checkGetException2" />
+      <option name="METHOD_NAME" value="checkRemoveLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -309,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ListTest.checkGet" />
-      <item itemvalue="JUnit.ListTest.checkDeletionException" />
-      <item itemvalue="JUnit.ListTest.checkGetException" />
-      <item itemvalue="JUnit.ListTest.checkGetException2" />
       <item itemvalue="JUnit.ListTest.checkSort" />
+      <item itemvalue="JUnit.ListTest" />
+      <item itemvalue="JUnit.ListTest.checkDeletionException" />
+      <item itemvalue="JUnit.ListTest.checkRemoveLast" />
+      <item itemvalue="JUnit.ListTest.checkRemove" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ListTest.checkSort" />
-        <item itemvalue="JUnit.ListTest.checkGetException2" />
-        <item itemvalue="JUnit.ListTest.checkGetException" />
+        <item itemvalue="JUnit.ListTest" />
+        <item itemvalue="JUnit.ListTest.checkRemoveLast" />
+        <item itemvalue="JUnit.ListTest.checkRemove" />
         <item itemvalue="JUnit.ListTest.checkDeletionException" />
-        <item itemvalue="JUnit.ListTest.checkGet" />
+        <item itemvalue="JUnit.ListTest.checkSort" />
       </list>
     </recent_temporary>
   </component>
@@ -341,52 +311,43 @@
       <workItem from="1541778121807" duration="8000" />
       <workItem from="1542105363072" duration="835000" />
       <workItem from="1542106562918" duration="9916000" />
-<<<<<<< HEAD
-      <workItem from="1542481861025" duration="1369000" />
-=======
-      <workItem from="1542482283831" duration="3697000" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest_checkRemoveFirst - 2018.11.13 at 17h 22m 04s.xml">
-      <configuration name="ListTest.checkRemoveFirst" configurationId="JUnit" />
+    <history-entry file="ListTest - 2018.11.18 at 15h 36m 51s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkRemove - 2018.11.13 at 17h 22m 09s.xml">
-      <configuration name="ListTest.checkRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest_checkRemoveLast - 2018.11.13 at 18h 10m 11s.xml">
+    <history-entry file="ListTest_checkRemoveLast - 2018.11.18 at 15h 39m 13s.xml">
       <configuration name="ListTest.checkRemoveLast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkGet - 2018.11.13 at 18h 10m 20s.xml">
-      <configuration name="ListTest.checkGet" configurationId="JUnit" />
+    <history-entry file="ListTest_checkRemove - 2018.11.18 at 15h 39m 17s.xml">
+      <configuration name="ListTest.checkRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkGet - 2018.11.13 at 18h 11m 56s.xml">
-      <configuration name="ListTest.checkGet" configurationId="JUnit" />
+    <history-entry file="ListTest_checkRemove - 2018.11.18 at 15h 39m 34s.xml">
+      <configuration name="ListTest.checkRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkGet - 2018.11.13 at 18h 12m 17s.xml">
-      <configuration name="ListTest.checkGet" configurationId="JUnit" />
+    <history-entry file="ListTest_checkRemove - 2018.11.18 at 15h 40m 08s.xml">
+      <configuration name="ListTest.checkRemove" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkDeletionException - 2018.11.13 at 18h 12m 30s.xml">
-      <configuration name="ListTest.checkDeletionException" configurationId="JUnit" />
+    <history-entry file="ListTest - 2018.11.18 at 15h 40m 15s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkGetException - 2018.11.13 at 18h 12m 38s.xml">
-      <configuration name="ListTest.checkGetException" configurationId="JUnit" />
+    <history-entry file="ListTest - 2018.11.18 at 15h 40m 43s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkGetException2 - 2018.11.13 at 18h 12m 42s.xml">
-      <configuration name="ListTest.checkGetException2" configurationId="JUnit" />
+    <history-entry file="ListTest - 2018.11.18 at 15h 42m 05s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_checkSort - 2018.11.17 at 21h 12m 31s.xml">
-      <configuration name="ListTest.checkSort" configurationId="JUnit" />
+    <history-entry file="ListTest - 2018.11.18 at 15h 42m 48s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest - 2018.11.18 at 15h 43m 12s.xml">
+      <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="17455000" />
-=======
-    <option name="totallyTimeSpent" value="19783000" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+    <option name="totallyTimeSpent" value="23097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,16 +359,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-437" y="567" width="2560" height="1440" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.272" />
-=======
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27221325" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27276343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,8 +371,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
@@ -432,11 +387,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.32962227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,36 +417,26 @@
           <properties class="ListTest" method="checkSort">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ListTest.java</url>
+          <line>50</line>
+          <properties class="ListTest" method="checkRemoveLast">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/List.java</url>
+          <line>262</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class" />
-    <entry file="file://$PROJECT_DIR$/src/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="277" column="26" lean-forward="true" selection-start-line="277" selection-start-column="26" selection-end-line="277" selection-end-column="26" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-=======
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -506,14 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="779">
+          <caret line="544" column="10" selection-start-line="544" selection-start-column="10" selection-end-line="544" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -524,30 +465,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+        <state relative-caret-position="95">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        <state relative-caret-position="427">
+          <caret line="225" column="11" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
           <folding>
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
@@ -557,7 +502,16 @@
         </state>
       </provider>
     </entry>
->>>>>>> bf1088aeceedbe812852e77bac6d7bf2d5ba4fdf
+    <entry file="file://$PROJECT_DIR$/src/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
